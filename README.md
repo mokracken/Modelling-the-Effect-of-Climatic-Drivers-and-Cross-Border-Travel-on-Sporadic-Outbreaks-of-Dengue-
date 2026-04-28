@@ -41,12 +41,15 @@ To run the analysis:
    - Cross-border travel indicators (e.g., imported cases, resident arrivals)  
    - Time variables (week, year)  
    - Population (for offset)
-   - dummy_data.csv provided as template. (Local and imported cases data in spreadsheet are generated randomly. Data are not publicly available due to institutional and legal data-governance restrictions)
+   - dummy_data.csv provided as template. (Local and imported cases data in spreadsheet are generated randomly)
+### Note on synthetic template data
+The CSV file provided in this repository is a synthetic template only. It is included to show the required column structure for running the scripts.
+It does not reproduce the original analysis dataset, which cannot be shared due to data access restrictions. Therefore, model convergence, DLNM outputs, and grid-search results obtained using the template data should not be interpreted.
+Users applying this code to their own data should re-run a grid search and adapt lag periods, degrees of freedom, and model structure according to their dataset.
 
 2. Run:
    - GEE script (for climate data extraction)  
    - DLNM–GLMM R script (for modelling and analysis)
-
 ---
 
 ## Methods Summary  
