@@ -41,7 +41,7 @@ To run the analysis:
    - Cross-border travel indicators (e.g., imported cases, resident arrivals)  
    - Time variables (week, year)  
    - Population (for offset)
-   - dummy_data_csv provided as template. (Local and imported cases data in spreadsheet are generated randomly. Data are not publicly available due to institutional and legal data-governance restrictions)
+   - dummy_data.csv provided as template. (Local and imported cases data in spreadsheet are generated randomly. Data are not publicly available due to institutional and legal data-governance restrictions)
 
 2. Run:
    - GEE script (for climate data extraction)  
