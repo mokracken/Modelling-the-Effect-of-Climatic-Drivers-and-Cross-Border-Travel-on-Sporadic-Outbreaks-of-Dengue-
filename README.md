@@ -25,7 +25,9 @@ The study applies a **Distributed Lag Non-linear Model (DLNM)** within a **Gener
 ## Data Availability  
 
 The data used in this study are derived from routine dengue surveillance records provided by the Ministry of Health and Wellness, Mauritius, and are subject to institutional and legal data governance restrictions.  
-- This repository provides **code only** for transparency and reproducibility  
+The repository contains dummy/test data only and does not include restricted surveillance data from the Ministry of Health and Wellness, Mauritius, in accordance with data-governance restrictions. CSV files containing model estimates, diagnostics, and summary outputs can also be shared with editors and reviewers upon request.
+Access to the original dengue surveillance data may be granted upon reasonable request and with permission from the Ministry of Health and Wellness, Mauritius, subject to relevant data-sharing agreements.
+
 
 ---
 
