@@ -513,11 +513,3 @@ for (nm in names(cb_specs)) {
     dplyr::mutate(exposure_quantile = factor(exposure_quantile, levels = c("p05","p95")))
   if (nrow(d) > 0) plot_lagcurve_publication(d, var_label = s$var)
 }
-
-# ==============================================================================
-# 11) Outputs
-# ==============================================================================
-cat("\n✅ Done. CSV outputs written to 'outputs/':\n",
-    "- MRV_point_CI_SE.csv\n",
-    "- overall_RR_summary_center_MRV.csv\n",
-    "- lagwise_RR_p05_p95_center_MRV.csv\n")
